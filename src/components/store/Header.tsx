@@ -50,7 +50,7 @@ export function Header({
           <input
             value={query}
             onChange={(e) => onQuery(e.target.value)}
-            placeholder="Buscar licor, apartir de precio…"
+            placeholder="Buscar licor o a partir de precio…"
             aria-label="Buscar licores"
             className="input-lux pl-9"
           />
