@@ -4,12 +4,11 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  // 
-  base: "/gruporodulfo/",
+  //
+  base: "./",
   plugins: [
     react({
       babel: {
-        // 
         plugins: ["@locator/babel-jsx/dist"],
       },
     }),
